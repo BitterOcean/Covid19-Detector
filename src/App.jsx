@@ -24,9 +24,9 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>  
-      <BrowserRouter>
+      <BrowserRouter basename={window.location.pathname || ''}>
         <Routes>
-          <Route path="/" element={<Landing setSnackBarInfo={setSnackBarInfo} />} />
+          <Route exact path="/" element={<Landing setSnackBarInfo={setSnackBarInfo} />} />
         </Routes>
       </BrowserRouter>
       <SnackbarAlert
