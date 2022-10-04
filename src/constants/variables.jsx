@@ -1,0 +1,9 @@
+export const HEADER_TITLE = 'Diagnosis of Covid-19';
+export const COPYRIGHT_FORMALITY = 'All the rights reserved';
+export const DEVELOPER_NAME = 'Maryam Saeidmehr';
+export const LANDING_CONTENT_TITLE = 'Covid-19 Detector';
+export const LANDING_CONTENT_DESCRIBTION = 'A Deep Learning Model Based on the DenseNet121 Architecture';
+export const DROPZONETEXT = 'Drag and drop a CT-scan here or Click';
+export const BUTTON_TITLE = 'Predict';
+export const CARDIMGALT = 'CT-Scan Image';
+export const CARDCONTENTHEATHER = 'The Probabilities :';
