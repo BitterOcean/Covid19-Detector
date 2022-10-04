@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://BitterOcean.github.io/Covid19-Detector",
+  "homepage": "https://bitterocean.github.io/Covid19-Detector",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
