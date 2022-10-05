@@ -23,7 +23,7 @@ const MoreOptionsMenu = (props) => {
                 variant:"h6",
                 color:"textPrimary",
                 sx:{
-                    fontSize: '1.5vmin'
+                    fontSize: '1.7vh'
                 }
             }}
           >
