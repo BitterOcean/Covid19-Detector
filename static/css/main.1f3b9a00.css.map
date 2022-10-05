@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.1f3b9a00.css","mappings":"AAAA,eACI,2BAA6B,CAC7B,yBACJ","sources":["assets/css/dropzoneStyle.css"],"sourcesContent":[".dropzone-text {\n    font-size: 1.8vmax !important;\n    font-weight: 300 !important;\n}\n"],"names":[],"sourceRoot":""}
