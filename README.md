@@ -14,12 +14,12 @@ In this project, I have a Python Django Web App which can detect COVID-19 from C
 
 ---
 ## **Table of contents**
-- [Dataset](#Dataset)
-- [Deep Learning Model](#Deep-Learning-Model)
-- [Web App Backend](#Web-App-Backend)
-- [Web App Frontend](#Web-App-Frontend)
-- [SUPPOERT](#SUPPOERT)
-- [LICENSE](#LICENSE)
+- [Dataset](#package-dataset)
+- [Deep Learning Model](#mechanical_armrobot-deep-learning-model)
+- [Web App Backend](#woman_technologist-web-app-backend)
+- [Web App Frontend](#woman_technologist-web-app-frontend)
+- [SUPPOERT](#email-suppoert)
+- [LICENSE](#copyright-license)
  
  
 ## :package: **Dataset**
