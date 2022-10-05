@@ -17,6 +17,7 @@ import AlertDialogSlide from '../components/Dialog';
 import Footer from '../components/Footer';
 import ResponsiveAppBar from '../components/AppBar';
 import { ApiUploadImage } from '../api/Api';
+import '../assets/css/dropzoneStyle.css';
 // IMPORT VARIABLES
 import {
   BUTTON_TITLE,
@@ -28,7 +29,7 @@ import {
 
 const useStyles = makeStyles(theme => ({
   paper: {
-    margin: theme.spacing(8, 4),
+    margin: theme.spacing(8, 3),
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -36,14 +37,15 @@ const useStyles = makeStyles(theme => ({
   },
   form: {
     width: '100%',
-    marginTop: theme.spacing(5),
+    alignItems: 'center',
+    margin: theme.spacing(3),
   },
   heroContent: {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(8, 0, 2),
+    padding: theme.spacing(7, 0, 2),
   },
   footer: {
     backgroundColor: theme.palette.background.paper,
@@ -103,13 +105,30 @@ const Landing = (props) => {
       <main>
         <div className={classes.heroContent}>
           <Container maxWidth="lg">
-            <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
+            <Grid item component={Paper} elevation={7}>
               <div className={classes.paper}>
                 <Container maxWidth="md">
-                  <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+                  <Typography
+                    component="h1"
+                    variant="h2"
+                    align="center"
+                    color="textPrimary"
+                    sx={{
+                      fontSize: '3.7vmax'
+                    }}
+                    gutterBottom
+                  >
                     { LANDING_CONTENT_TITLE }
                   </Typography>
-                  <Typography variant="h5" align="center" color="textSecondary" paragraph>
+                  <Typography
+                    variant="h5"
+                    align="center"
+                    color="textSecondary"
+                    sx={{
+                      fontSize: '1.83vmax',
+                    }}
+                    paragraph
+                  >
                     { LANDING_CONTENT_DESCRIBTION }
                   </Typography>
                 </Container>
@@ -120,6 +139,7 @@ const Landing = (props) => {
                       filesLimit={1}
                       acceptedFiles={["image/*"]}
                       dropzoneText={DROPZONETEXT}
+                      dropzoneParagraphClass="dropzone-text"
                       onChange={(f) => handleChange(f)}
                     />
                   </Grid>

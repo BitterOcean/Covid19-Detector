@@ -6,6 +6,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import CoronavirusIcon from '@mui/icons-material/Coronavirus';
+import MoreOptions from './MoreOptions';
 // IMPORT VARIABLES
 import { HEADER_TITLE } from '../constants/variables';
 
@@ -25,9 +26,10 @@ const ResponsiveAppBar = () => {
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
-              letterSpacing: '.2rem',
+              letterSpacing: '.1rem',
               color: 'inherit',
               textDecoration: 'none',
+              flexGrow: 1
             }}
           >
             { HEADER_TITLE }
@@ -36,21 +38,24 @@ const ResponsiveAppBar = () => {
           <CoronavirusIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h6"
-            noWrap
             component="a"
             href="/"
             sx={{
-              mr: 2,
+              mr: 0,
               display: { xs: 'flex', md: 'none' },
               fontFamily: 'monospace',
               fontWeight: 700,
-              letterSpacing: '.2rem',
+              letterSpacing: '.0rem',
               color: 'inherit',
               textDecoration: 'none',
+              flexGrow: 1,
+              fontSize: '5.6vmin'
             }}
           >
             { HEADER_TITLE }
           </Typography>
+
+          <MoreOptions />
 
         </Toolbar>
       </Container>

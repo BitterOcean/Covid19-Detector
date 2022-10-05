@@ -7,3 +7,5 @@ export const DROPZONETEXT = 'Drag and drop a CT-scan here or Click';
 export const BUTTON_TITLE = 'Predict';
 export const CARDIMGALT = 'CT-Scan Image';
 export const CARDCONTENTHEATHER = 'The Probabilities :';
+export const ABOUT_ME_LINK = 'https://MaryamSaeedmehr.github.io';
+export const COLAB_LINK = 'https://colab.research.google.com/drive/1e2Tq9ymAPo9kcQfRv-htGgw3eWNaE_zd?usp=sharing';
