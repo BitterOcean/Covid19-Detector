@@ -171,7 +171,9 @@ and finally :
 ```bash
 npm start
 ```
-Now the frontend will run on <a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a> and you can start using it :slightly_smiling_face:.
+Now the frontend will run on <a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a>.
+<br />
+Eventually, here is the point that everything is ready and you can start using the the "Covid19-Detector". :slightly_smiling_face:.
 
 
 ## :email: **SUPPOERT**
