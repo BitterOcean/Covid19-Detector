@@ -8,7 +8,7 @@
 | ![Covid19DetectorLandingPage](https://user-images.githubusercontent.com/60509979/194156486-b84abf8b-5c78-427d-94bf-1bb696f2f386.png) | ![Covid19DetectorResultShow](https://user-images.githubusercontent.com/60509979/194156563-14d3a535-28ed-450c-9e71-f01e70cf020b.png) |
 
 
-In this project, I have a Python Django Web App which can detect COVID-19 from CT Scan Images.
+In this project, I have a Django-React Web App which can detect COVID-19 from CT Scan Images.
 
 ## :movie_camera: **<a href="https://bitterocean.github.io/Covid19-Detector/">Live Demo</a>**
 
