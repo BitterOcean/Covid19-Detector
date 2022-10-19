@@ -71,21 +71,6 @@ this is the architecture of **DenseNet121**
          <td style="text-align:center;font-size:13pt;">$$\frac{TN}{TN~+~FP}$$</td>
          <td style="text-align:center;">95.23%</td>
      </tr>
-     <tr>
-         <td style="text-align:center;">IoU</td>
-         <td style="text-align:center;font-size:13pt;">$$\frac{TP}{TP~+~FN~+~FP}$$</td>
-         <td style="text-align:center;">89.14%</td>
-     </tr>
-     <tr>
-         <td style="text-align:center;">Dice Score</td>
-         <td style="text-align:center;font-size:13pt;">$$\frac{2~\times ~TP}{2~\times ~TP~+~FP~+~FN}$$</td>
-         <td style="text-align:center;">94.26%</td>
-     </tr>
-     <tr>
-         <td style="text-align:center;">PPV</td>
-         <td style="text-align:center;font-size:13pt;">$$\frac{TP}{TP~+~FP}$$</td>
-         <td style="text-align:center;">95.04%</td>
-     </tr>
  </table>
 </div>
 
