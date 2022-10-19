@@ -43,7 +43,10 @@ In this project, I have a Django-React Web App which can detect COVID-19 from CT
 
 this is the architecture of **DenseNet121**
 
-![DenseNet121](https://user-images.githubusercontent.com/60509979/194159787-169b564b-79a7-4113-b480-6ddbd6e4892f.png)
+![DenseNet121](https://user-images.githubusercontent.com/60509979/196803341-321a7bbc-3c06-4b29-9441-a79f0e673ddf.png)
+
+![Blocks](https://user-images.githubusercontent.com/60509979/196803363-3601e517-56bd-46f9-bec5-d64c73fa4d14.png)
+
 
 ### :monocle_face: **Model Evaluation**
 
