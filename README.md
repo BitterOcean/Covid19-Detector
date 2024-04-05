@@ -1,6 +1,8 @@
 # :mask: **Covid19 Detector**
 ![Awesome](https://img.shields.io/badge/.-Awesome-%23FC60A8?style=for-the-badge&logo=awesomelists)
 ![Builed](https://img.shields.io/azure-devops/build/totodem/8cf3ec0e-d0c2-4fcd-8206-ad204f254a96/2?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/PYTHON-3.10_%7C_3.11-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Python-3.12_%7C_FAILED-red?style=for-the-badge)
 ![License](https://img.shields.io/packagist/l/doctrine/orm?style=for-the-badge)
 
 | . | . |
@@ -8,7 +10,7 @@
 | ![Covid19DetectorLandingPage](https://user-images.githubusercontent.com/60509979/194156486-b84abf8b-5c78-427d-94bf-1bb696f2f386.png) | ![Covid19DetectorResultShow](https://user-images.githubusercontent.com/60509979/194156563-14d3a535-28ed-450c-9e71-f01e70cf020b.png) |
 
 
-In this project, I have a Django-React Web App which can detect COVID-19 from CT Scan Images.
+In this project, I have a Python Django Web App which can detect COVID-19 from CT Scan Images.
 
 ## :movie_camera: **<a href="https://bitterocean.github.io/Covid19-Detector/">Live Demo</a>**
 
@@ -43,7 +45,8 @@ In this project, I have a Django-React Web App which can detect COVID-19 from CT
 
 this is the architecture of **DenseNet121**
 
-![densenet121](https://user-images.githubusercontent.com/60509979/197634917-e845bca3-510d-4acc-803f-ed0698a693bc.png)
+
+![densenet121](https://user-images.githubusercontent.com/60509979/197634786-ef252436-1e5f-472c-b775-3c245e6dbb70.png)
 
 
 ### :monocle_face: **Model Evaluation**
@@ -77,7 +80,6 @@ this is the architecture of **DenseNet121**
 
 ## :woman_technologist: **Web App Backend**
 
-
 [![Pinned Repository](https://github-readme-stats.vercel.app/api/pin/?username=BitterOcean&repo=Covid19-Detector-Backend)](https://github.com/BitterOcean/Covid19-Detector-Backend)
 
 
@@ -89,11 +91,24 @@ git clone https://github.com/BitterOcean/Covid19-Detector-Backend.git
 
 then, create a virtual enviroment and install python required packages :
 
+- Linux Users
+
 ```bash
 cd Covid19-Detector-Backend
 python3 -m venv .env
 source .env/bin/activate
 pip install -r requirements.txt
+```
+
+- Windows Users
+
+open a windows terminal and follow the instructions below:
+
+```bash
+cd Covid19-Detector-Backend
+python3 -m venv .env
+.env\Scripts\Activate.ps1
+pip install -r requirements_win.txt
 ```
 
 finally, go to the project directory and run the bachend django server :
@@ -143,6 +158,11 @@ then, go to the project directory and install required node modules :
 ```bash
 npm i
 ```
+if you got any errors try using ```--force``` flag.
+```bash
+npm i --force
+```
+
 after that, to use it locally, you have to change only one line in ```src/constants/routes.jsx```, so :
 ```bash
 cd Covid19-Detector/src/constants
@@ -150,13 +170,13 @@ cd Covid19-Detector/src/constants
 and then change the first line, like below :
 ```diff
 - export const API_ROOT = 'https://covid-19-detector-model.herokuapp.com';
-+ export const API_ROOT = 'http://127.0.0.1:8000/';
++ export const API_ROOT = 'http://127.0.0.1:8000';
 ```
 and finally :
 ```bash
 npm start
 ```
-Now the frontend will run on <a href="http://127.0.0.1:3000/">http://127.0.0.1:3000/</a>.
+Now the frontend will run on <a href="http://127.0.0.1:3000/Covid19-Detector">http://127.0.0.1:3000/Covid19-Detector</a>.
 <br />
 Eventually, here is the point that everything is ready and you can start using the the "Covid19-Detector". :slightly_smiling_face:.
 
